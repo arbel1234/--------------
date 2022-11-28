@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><body>
+    
+</body>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>בחינה</title> 
+      
+    
+    <script>
+        function ex1() {
+            var size1 = prompt("enter size1");
+            size = Number(size1);
+            if (size > 0 && size1 <= 100) {
+                alert("s");
+                console.log("s");
+
+
+            } else if (size1 > 101 && size1 <= 1000) {
+                alert("M");
+                console.log("M");
+
+            } else if (size1 > 1000) {
+                alert("L");
+                console.log("L");
+            }
+
+        }
+        function ex2() {
+            var first = prompt("enter first name");
+            var last = prompt("enter last name");
+            console.log(first + " " + last + " " + " hola drom amerika");
+
+        }
+
+        function ex3() {
+            var uPass = prompt("enter pasword");
+            if (uPass == "wolcome123") {
+                alert("welcome to the system");
+                console.log("welcome to the system");
+            } else {
+                alert("not WELCOME");
+                console.log("NOT WELCOME");
+            } 
+
+
+        }   
+        function ex4(){ 
+
+var age1 = prompt(" enter age1"); 
+age1 = Number ( age1); 
+if (age1 <= 16) { 
+    alert("לא מורשה כניסה");
+    console.log("לא מורשה כניסה");
+} else if ( age1 >=16 && age1 <=18){ 
+    alert ("אתה רשאי כניסה בליווי הורה"); 
+    console.log("אתה רשאי כניסה בליווי הורה"); 
+}else if ( age > 18) { 
+    alert("רשאי כניסה"); 
+    console.log("רשאי כניסה");
+}
+        } 
+       
+            function ex5() { 
+                var num1 = prompt("enter num1"); 
+                num1= Number(num1); 
+                var num2 = prompt("enter num2"); 
+                num2= Number(num1); 
+                var operator = prompt("enter + / -"); 
+                if (operator =="+"){ 
+                    alert(num1 + num2); 
+                    console.log( num1 + num2); 
+
+                }else if ( operator == "-"){ 
+                    alert(num1 - num2); 
+                    console.log(num1 - num2); 
+                }
+
+            }
+    </script>
+
+    <h1 style="background-color:pink ; "> בחינה
+        <hr>
+        <button onclick="ex1()">click me ex1</button><br><br>
+        <button onclick="ex2()">click me ex2</button><br><br>
+        <button onclick="ex3()"> click me ex3</button> <br><br>
+        <button onclick="ex4()">clik me ex4</button> <br><br>
+        <button onclick="ex5()"> click me ex5</button> <br><br>
+
+        <h1> שם פרטי: ארבל</h1> 
+        <h1> שם משפחה : דניאלי</h1> 
+
+
+    </h1>
